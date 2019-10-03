@@ -21,7 +21,7 @@ def runSim():
         if l == n2/2:
             sum += 1
 
-    #Probability that exactly n heads in 2n tosses
+    #Probability that exactly n heads in 2n tosses based on k simulations
     prob = sum/k
 
     #Return value for pi
